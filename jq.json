@@ -1,0 +1,30 @@
+{
+    "name": "interval-buckets",
+    "version": "0.1.0",
+    "description": "Counter buckets which also collect values outside an integer interval '0..n-1' in the first and last buckets respectively.",
+    "homepage": "https://github.com/joelpurra/jq-interval-buckets",
+    "bugs": "https://github.com/joelpurra/jq-interval-buckets/issues",
+    "author": {
+        "name": "Joel Purra",
+        "url": "http://joelpurra.com/"
+    },
+    "main": "./jq/main.jq",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joelpurra/jq-interval-buckets.git"
+    },
+    "dependencies": {
+        "joelpurra/jq-counter-buckets": "^0.1.1"
+    },
+    "engines": {
+        "jq": "^1.5.0",
+        "jqnpm": "^1.0.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "keywords": [
+        "jq-package"
+    ]
+}
