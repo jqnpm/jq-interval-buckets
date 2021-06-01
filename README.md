@@ -6,6 +6,14 @@
 
 Counter buckets which also collect values outside an integer interval `0..n-1` in the first and last buckets respectively. Useful when a series of values has extreme values, and only a narrow interval is interesting. The first bucket `0` contains all values at `0` or below, the last bucket `n-1` contains all values at `n-1` or above.
 
+
+
+> ## ⚠️ This project has been archived
+>
+> No future updates are planned. Feel free to continue using it, but expect no support.
+
+
+
 This is a package for the command-line JSON processor [`jq`](https://stedolan.github.io/jq/). Install the package in your jq project/package directory with [`jqnpm`](https://github.com/joelpurra/jqnpm):
 
 ```bash
